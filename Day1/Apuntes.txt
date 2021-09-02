@@ -1,0 +1,41 @@
+Python 
+
+-  Open Source
+-  Interpretado
+-  Orientado a Objetos (POO/OPP)
+-  Fue creado por Guido Van Rossum
+-  Procede de una serie británica, Month Python's Flying Circus. 
+-  La primera versión se publicó el 20 de febrero de 1991. 
+
+Algunas áreas en que se utiliza: 
+ - Web application
+ - Desktop application
+ - Machine Learing
+ - Ethical hacking
+
+------------------------------------------------------------------
+
+Operadores
+ +  --> Suma                                                  _
+ -  --> Resta                                                  |
+ *  --> Multiplicacion                                         |
+ /  --> Division                                               |--> No confundirlos con los alfanumericos
+ %  --> Modulo                                                 |
+ // --> El resuido de una operacion                            |
+ ** --> Exponencial de un operador, ejemplo: 2 ** 3 = 2 x 2   _|
+
+------------------------------------------------------------------
+
+Tipos de datos
+int      --> Valores enteros 
+float    --> Valores decimales  
+complex  --> Valores imaginarios, ejemplo : 4 + 3i 
+str      --> Cadena de texto
+Bool     --> True or False 
+set      --> Coleccion ordenada que almacena datos (de diferentes tipos)
+tuple    --> Coleccion ordenada, no puede ser modificada (de diferentes tipos)
+
+------------------------------------------------------------------
+
+
+
