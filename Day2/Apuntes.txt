@@ -1,0 +1,41 @@
+Built in functions (Funciones incorporadas) más utilizadas:
+
+ _ print(), len(), type(), int(), float(), str()
+ _ input(), list(), dict(), min(), max(), sum()
+ _ sorted(), open(), file(), help(), and dir() 
+
+ Documentacion: https://docs.python.org/3.9/library/functions.html
+ 
+ Funciones que me parecieron interesantes:
+ _ bin(x) : Convierta un número entero en una cadena binaria con el prefijo "0b"
+ _ bitearray : Devuelve una nueva matriz de bytes. La bytearrayclase es una secuencia mutable de enteros en el rango 0 <= x <256. (es una clase)
+   bytearray( [ fuente [ , codificación [ , errores ] ] ] )
+
+ _ help( [ objeto ] ) : Invoca al sistema de ayuda integrado.
+ _ hex( x ) : Convierta un número entero en una cadena hexadecimal 
+ _ id( objeto ) : Devuelve la "identidad" de un objeto.
+ _ readline : Define una serie de funciones para facilitar la finalización y lectura / escritura.
+ _ len(x) : Devuelve la longuitud de un objeto (el numero de elementos, pueden ser de secuencia o de colecció n)
+ 
+ --> Una variable mnemotécnica (A mnemonic variable ) es un nombre de variable que se puede recordar y asociar fácilmente.
+
+ #VARIABLES EN PYTHON
+
+    -Un nombre de variable debe empezar por una letra o el carácter de subrayado
+    -Un nombre de variable no puede empezar por un número
+    -Un nombre de variable sólo puede contener caracteres alfanuméricos y guiones bajos (A-z, 0-9 y _ )
+    -Los nombres de las variables distinguen entre mayúsculas y minúsculas 
+
+Cuando se declara una variable en python:
+
+ <nombre_de_variable> = <tipo_de_dato>()
+ Entrada del usuario: input()
+ Ejemplo: 
+
+ name = input("Ingresar nombre: " ) <-- en la pantalla se mostrara "Ingrese nombre: <Colocar nombre> "
+                                                                                        |--> Se guardara en name
+
+Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
+ Glosario de palabras nuevas:
+ pdb --> Depurador de python para intrépretes interactivos
+

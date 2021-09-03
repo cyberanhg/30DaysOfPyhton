@@ -71,7 +71,7 @@ Vbool = True
 
 Vlista = ["Queso", "Leche", "Huevos"]
 Vturple = ("Dia ", 1, 2021, "Dinero", 23.08)
-Vset = ([48, "Hola!", 2.20])
+Vset = ({48, "Hola!", 2.20})
 Vdic = {"numero": 10, "clave": "H1234"}
 
 print("Integer: ", Nentero)

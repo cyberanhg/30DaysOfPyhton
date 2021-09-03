@@ -27,15 +27,23 @@ Operadores
 ------------------------------------------------------------------
 
 Tipos de datos
-int      --> Valores enteros 
-float    --> Valores decimales  
-complex  --> Valores imaginarios, ejemplo : 4 + 3i 
+int      --> Valores enteros                                                   
+float    --> Valores decimales                                                  
+complex  --> Valores imaginarios, ejemplo : 4 + 3i                              
 str      --> Cadena de texto
 Bool     --> True or False 
 set      --> Coleccion ordenada que almacena datos (de diferentes tipos)
 tuple    --> Coleccion ordenada, no puede ser modificada (de diferentes tipos)
-
 ------------------------------------------------------------------
+IDENTIDICAR DATOS EN PYTHON con el archivo Helloworld.python
+OJO: Para saber el tipo de dato: print(type(<colocar_valores>))
+
+str      --> name = "Angie" / print(name) / print("Angie") --> entiendase que se puede escribir como: opcion1 / opcion2 ... 
+list     --> list ([23, "Cadenas", 9.3]) --> van con () y [] = ([])
+complex  --> print(2, 3j) ---> (numero, numero_imaginario(j))
+set      --> Vset = ([48, "Hola!", 2.20]) --> en el parentes iran llaves: ({})
+tuple    --> print(("Dia ", 1, 2021, "Dinero", 23.08))
+Dictionary --> Vdic = {"numero": 10, "clave": "H1234"} --> Van con llaves {} 
 
 
 

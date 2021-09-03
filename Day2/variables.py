@@ -1,0 +1,1 @@
+print(type(("Dia ", 1, 2021, "Dinero", 23.08)))
