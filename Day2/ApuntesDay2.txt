@@ -34,8 +34,26 @@ Cuando se declara una variable en python:
 
  name = input("Ingresar nombre: " ) <-- en la pantalla se mostrara "Ingrese nombre: <Colocar nombre> "
                                                                                         |--> Se guardara en name
+Se pueden agregar variables multiples:
 
-Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
- Glosario de palabras nuevas:
+--> first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
+--> print(first_name, last_name, country, age, is_married)
+
+Para saber que tipo de dato es, colocar:
+print(type(<nombre_de_variable))
+
+-> Cuando hacemos operaciones aritméticas los números de cadena deben ser convertidos primero a int o float de lo contrario devolverá un error.
+ 
+  int to str  
+
+  numero_en_int = 10
+  print(numero_en_int) <-- se imprime el 10 como int
+  numero_str    =   str(numero_en_int) <-- se almacena el valor de 10
+        |            |         
+nombre_de_variable2   tipo_de_dato
+
+  print(numero_str) <-- Se imprime con el valor de str
+
+
  pdb --> Depurador de python para intrépretes interactivos
 
