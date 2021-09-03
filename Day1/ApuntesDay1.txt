@@ -38,7 +38,7 @@ tuple    --> Coleccion ordenada, no puede ser modificada (de diferentes tipos)
 IDENTIDICAR DATOS EN PYTHON con el archivo Helloworld.python
 OJO: Para saber el tipo de dato: print(type(<colocar_valores>))
 
-str      --> name = "Angie" / print(name) / print("Angie") --> entiendase que se puede escribir como: opcion1 / opcion2 ... 
+str      --> mensaje = str("Hello world:)!") <-- las cadenas de texto van con ("<texto")  
 list     --> list ([23, "Cadenas", 9.3]) --> van con () y [] = ([])
 complex  --> print(2, 3j) ---> (numero, numero_imaginario(j))
 set      --> Vset = ([48, "Hola!", 2.20]) --> en el parentes iran llaves: ({})
